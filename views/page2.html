@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Halaman Kedua</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <!--  -->
+    <p><h2>Halaman Kedua</h2></p>
+    <a href="../index.html">Halaman Pertama</a>
+
+    <!-- Membuat Tabel -->
+    <table border="1">
+        <tr>
+            <!-- colspan merge disamping -->
+            <th rowspan="2">Foundation</th>
+            <th colspan="3">Cream </th>
+        </tr>
+        <tr>
+            <td>BB Cream</td>
+            <td>DDCream</td>
+            <td>CC Cream</td>
+        </tr>
+    </table>
+
+    <!-- Membuat List -->
+    <ul>
+        <li>Wardah</li>
+        <li>Emina</li>
+        <li>Pixy</li>
+    </ul>
+
+    <ol>
+        <li>Maybelline</li>
+        <li>Make Over</li>
+        <li>Nasific</li>
+    </ol>
+
+    <dl>
+        <dt>Biodata Diri</dt>
+        <dd>Nama : Rizky Aulia F</dd>
+        <dd>Alamat : Pasuruan</dd>
+    </dl>
+
+    <!-- simbol -->
+    <!-- nbps untuk spasi -->
+    <p>&copy; Politeknik Negeri Malang</p>
+    <p>&nbsp; Jurusan Teknologi Informasi</p>
+
+    <form action="../index.html" method="GET">
+        <!-- input text -->
+        <div>
+            <label>Nama Mahasiswa</label><br>
+            <input type="text" name="rizkyauliaaf" placeholder="Cari" value="" />
+        </div>
+
+        <!-- text area -->
+        <div>
+            <label>Deskripsi</label><br>
+            <textarea name="deskripsi" placeholder="Masukkan Deskripsi..." cols="50" rows="4"></textarea>
+        </div>
+
+        <!-- check box -->
+        <div>
+            <p>Pilih Jenis Make Up :</p>
+            <div>
+                <label for="1">Foundation</label>
+                <input type="checkbox" id="1" name="makeup" value="Foundation">
+            </div>
+            
+            <div>
+                <label for="2">Cream</label>
+                <input type="checkbox" id="2" name="makeup" value="Cream">
+            </div>
+            
+            <div>
+                <label for="3">Lipstik</label>
+                <input type="checkbox" id="3" name="makeup" value="Lipstik">
+            </div>
+            
+        </div>
+
+        <!-- radio button -->
+        <div>
+            <p>Pilih Rangkaian :</p>
+            <div>
+                <label for="a">Make Up</label>
+                <input type="radio" id="a" name="golongan" value="MakeUp">
+            </div>
+            
+            <div>
+                <label for="b">Skin Care</label>
+                <input type="radio" id="b" name="golongan" value="SkinCare">
+            </div>
+            
+            <label for="c">Body Care</label>
+            <input type="radio" id="c" name="golongan" value="BodyCare">
+        </div>
+
+        <!-- Select Option -->
+        <div>
+            <p>Agama :</p>
+            <select name="">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Budha">Budha</option>
+                
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" name="simpan" value="Tambah Dan Simpan">
+        </div>
+    </form>
+</body>
+</html>
